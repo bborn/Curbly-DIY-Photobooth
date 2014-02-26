@@ -8,17 +8,6 @@ This workflow:
 4. Saves the photos to the guest's folder (individually)
 5. Combines the three photos into a vertical strip
 6. Prints the strip 
-7. Sleeps the computer, using the pictures taken so far as the screensaver
-
-
-
-To make the screensaver part work, you need to change your system preferences to use the correct folder as the source for the screensaver. 
-
-1. Open 'System Preferences' > 'Desktop & Screensaver'
-2. Click the '+' button in the left column under the 'Screen Savers' list
-3. Select 'Add a Folder of Pictures'
-4. Choose the CurblyPhotoboothPictures folder ( Username > Pictures > CurblyPhotoBoothPictures)
-5. Quick 'System Preferences'
 
 
 Requirements:
@@ -32,24 +21,24 @@ Printing:
 The application assumes you're printing on 4x6 photo paper inserted horizontally into a standard printer. In other words, you should insert your 4x6 photo paper into your printer like this:
 
 
-						6in                    |
-			---------------------------  |
-			|													|  |
-			|													|  |
-			|													|  |
-4in		|													|  |	
-			|													|  |
-			|													|  |
-			|													|  |
-			---------------------------  |	<-- bottom right corner of manual feed tray
------------------------------------|			
+ 				6in                    	|
+			--------------------------------|
+			|				|  |
+			|				|  |
+			|				|  |
+4in			|				|  |
+   			|				|  |
+   			|				|  |   			
+   			|				|  |
+			--------------------------------|  |	<-- bottom right corner of manual feed tray
+-----------------------------------------------------------|			
 			
-		Paper feed direction
-							|
-							|
-							|
-							|
-							V
+				Paper feed direction	
+					|
+					|
+					|
+					V
+
 							
 SUGGESTION: Try the application once through with normal, 8.5x11" paper in the manual paper feed tray to see how the strip prints out, then insert your 4x6 paper accordingly.
 
