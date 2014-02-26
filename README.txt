@@ -21,7 +21,7 @@ Printing:
 The application assumes you're printing on 4x6 photo paper inserted horizontally into a standard printer. In other words, you should insert your 4x6 photo paper into your printer like this:
 
 
- 				6in                    	|
+ 				6in                    	
 			--------------------------------|
 			|				|  |
 			|				|  |
