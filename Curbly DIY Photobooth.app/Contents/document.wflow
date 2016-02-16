@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>247.1</string>
+	<string>417</string>
 	<key>AMApplicationVersion</key>
-	<string>2.1.1</string>
+	<string>2.6</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.2</string>
+				<string>v.1.2.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>newName</key>
@@ -67,14 +71,10 @@
 					<key>targetLocation</key>
 					<string></string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MakeNewFolder</string>
 				<key>CFBundleVersion</key>
-				<string>1.2</string>
+				<string>1.2.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -136,9 +136,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:1671.000000</string>
+				<string>309.000000:200.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/New Folder.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -158,7 +158,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -189,14 +193,10 @@
 					<key>variableUUID</key>
 					<string>F26A1BF1-E290-4331-845B-5023185323A9</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Set_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -244,9 +244,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:1541.000000</string>
+				<string>309.000000:306.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -262,11 +262,16 @@
 					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.text-object</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>buttonAffirmative</key>
@@ -294,7 +299,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.text-object</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -314,15 +319,10 @@
 					<key>requireInput</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-					<string>TextEdit</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TextInputDialog</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -332,7 +332,7 @@
 					<string>AMCategoryText</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
+				<string>AMAskForTextAction</string>
 				<key>IgnoresInput</key>
 				<true/>
 				<key>InputUUID</key>
@@ -423,9 +423,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:1436.000000</string>
+				<string>309.000000:348.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -445,7 +445,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -478,14 +482,10 @@
 					<key>variableUUID</key>
 					<string>BCA976AE-739E-4A15-A4EE-306B93A9BB0F</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Set_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -533,9 +533,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:1394.000000</string>
+				<string>309.000000:454.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -555,7 +555,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.2</string>
+				<string>v.1.2.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>newName</key>
@@ -599,14 +603,10 @@
 					<key>targetLocation</key>
 					<string></string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MakeNewFolder</string>
 				<key>CFBundleVersion</key>
-				<string>1.2</string>
+				<string>1.2.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -666,9 +666,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:1289.000000</string>
+				<string>309.000000:584.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/New Folder.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -688,7 +688,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -721,14 +725,10 @@
 					<key>variableUUID</key>
 					<string>2CC7497F-83AF-47CD-BAFE-66B21F97D2D1</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Set_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -776,9 +776,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:1159.000000</string>
+				<string>309.000000:690.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -796,7 +796,11 @@
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>automaticallyTakePicture</key>
@@ -857,14 +861,10 @@
 					<key>showRecents</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>System</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TakeVideoSnapshot</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -874,7 +874,7 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>TakePicture</string>
+				<string>AMTakeVideoSnapshotAction</string>
 				<key>IgnoresInput</key>
 				<false/>
 				<key>Keywords</key>
@@ -971,9 +971,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:1054.000000</string>
+				<string>309.000000:732.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -991,7 +991,11 @@
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>automaticallyTakePicture</key>
@@ -1052,14 +1056,10 @@
 					<key>showRecents</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>System</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TakeVideoSnapshot</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1069,7 +1069,7 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>TakePicture</string>
+				<string>AMTakeVideoSnapshotAction</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Keywords</key>
@@ -1166,9 +1166,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:1012.000000</string>
+				<string>309.000000:774.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -1186,7 +1186,11 @@
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>automaticallyTakePicture</key>
@@ -1247,14 +1251,10 @@
 					<key>showRecents</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>System</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TakeVideoSnapshot</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1264,7 +1264,7 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>TakePicture</string>
+				<string>AMTakeVideoSnapshotAction</string>
 				<key>Disabled</key>
 				<false/>
 				<key>IgnoresInput</key>
@@ -1363,9 +1363,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:970.000000</string>
+				<string>309.000000:816.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Take Video Snapshot.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -1383,7 +1383,11 @@
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0</string>
+				<string>2.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>pauseDuration</key>
@@ -1409,14 +1413,10 @@
 					<key>pauseUnit</key>
 					<integer>0</integer>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Pause</string>
 				<key>CFBundleVersion</key>
-				<string>2.0</string>
+				<string>2.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -1474,9 +1474,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:928.000000</string>
+				<string>309.000000:921.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Pause.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1496,7 +1496,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.2.0</string>
+				<string>v.2.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>itemType</key>
@@ -1540,69 +1544,56 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25Y
+					YnBsaXN0MDDUAQIDBAUGYmNYJHZlcnNpb25Y
 					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMTU6O0BESk9QVVxhZmhV
-					JG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNh
-					dGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
-					cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2Jq
-					ZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVm
-					dEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVz
+					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlVZXV9V
+					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
+					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
+					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
+					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
+					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
 					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					BIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHBy
-					ZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlO
-					U09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2A
-					BoAIXHZhbHVlRm9yS2V5OtIdCw0ogAfSKiss
+					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
+					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
+					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
+					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
 					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZF
-					eHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09i
-					amVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tl
-					eVBhdGiAChAKgAtUa2luZNIqKzw9XxAcTlNL
-					ZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+
-					PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
-					ZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5T
-					TXV0YWJsZUFycmF5o0FDMFdOU0FycmF50ior
-					RUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdI
-					STBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAU
-					TlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHBy
-					ZXNzaW9u0x1LC0xNTl8QD05TQ29uc3RhbnRW
-					YWx1ZRAAgA+AEBAE0iorUVJfEBlOU0NvbnN0
-					YW50VmFsdWVFeHByZXNzaW9uo1NUMF8QGU5T
-					Q29uc3RhbnRWYWx1ZUV4cHJlc3Npb25cTlNF
-					eHByZXNzaW9u1VZXWAtZT1pMW0xeTlNPcGVy
-					YXRvclR5cGVYTlNOZWdhdGVaTlNNb2RpZmll
-					cllOU09wdGlvbnMIgBLSKitdXl8QG05TRXF1
-					YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNfYDBf
-					EBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0
-					b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0ior
-					YmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWj
-					ZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRl
-					W05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8Q
-					E05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxAT
-					TlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRp
-					Y2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRy
-					b290gAEACAARABoAIwAtADIANwBQAFYAXQBv
-					AIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA
-					8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFF
-					AUcBVAFZAVsBYAFrAXQBhwGLAZ4BqwG0AbkB
-					uwG9Ab8BxgHQAdIB1AHWAdsB4AH/AgMCIgIv
-					AjQCQwJHAk8CVAJqAm8ChQKcAqkCsALCAsQC
-					xgLIAsoCzwLrAu8DCwMYAyMDMgM7A0YDUANR
-					A1MDWAN2A3oDmAOuA7MDywPPA+cD8wP4A/sE
-					AAQWBBoEMAQ8BE4EUQRWAAAAAAAAAgEAAAAA
-					AAAAcQAAAAAAAAAAAAAAAAAABFg=
+					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
+					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
+					Njc4WU5TS2V5UGF0aIALEAqAClRraW5k0ior
+					OzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
+					ZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFy
+					cmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tl
+					eVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1
+					bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9O
+					U0NvbnN0YW50VmFsdWWADxAAgBAQBNIqK0xN
+					XxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lv
+					bqNMLi/VC09QUVJTSFRISlpOU01vZGlmaWVy
+					WE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJh
+					dG9yVHlwZYASCNIqK1ZXXxAbTlNFcXVhbGl0
+					eVByZWRpY2F0ZU9wZXJhdG9yo1ZYL18QE05T
+					UHJlZGljYXRlT3BlcmF0b3LSKitaW18QFU5T
+					Q29tcGFyaXNvblByZWRpY2F0ZaNaXC9bTlNQ
+					cmVkaWNhdGXSKitAXqJAL9IqK2BhXxATTlND
+					b21wb3VuZFByZWRpY2F0ZaNgXC9fEA9OU0tl
+					eWVkQXJjaGl2ZXLRZGVUcm9vdIABAAgAEQAa
+					ACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYA
+					mwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEF
+					AQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAWAB
+					awF0AYcBiwGYAaEBpgGoAaoBrAGzAb0BvwHB
+					AcMByAHNAewB8AH1AgQCCAIQAhUCKwIwAkcC
+					TgJgAmICZAJmAmgCbQKJAo0CmAKjAqwCtgLF
+					AscCyALNAusC7wMFAwoDIgMmAzIDNwM6Az8D
+					VQNZA2sDbgNzAAAAAAAAAgEAAAAAAAAAZgAA
+					AAAAAAAAAAAAAAAAA3U=
 					</data>
 					<key>searchPath</key>
 					<string>2CC7497F-83AF-47CD-BAFE-66B21F97D2D1</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Find_Finder_Items_2</string>
 				<key>CFBundleVersion</key>
-				<string>2.0</string>
+				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1671,14 +1662,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>510.000000:823.000000</string>
+				<string>309.000000:1083.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1691,11 +1682,118 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>imageType</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Change Type of Images.action</string>
+				<key>ActionName</key>
+				<string>Change Type of Images</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>imageType</key>
+					<string>JPEG</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.ChangeImageType</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMChangeImageTypeAction</string>
+				<key>InputUUID</key>
+				<string>CB268EF0-FE04-4835-B9B3-3F0808C975E8</string>
+				<key>Keywords</key>
+				<array>
+					<string>Image</string>
+					<string>Photo</string>
+					<string>Change</string>
+					<string>Convert</string>
+					<string>Set</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>CC5E69DB-8332-4BCC-BD4D-931DD2A241D5</string>
+				<key>UUID</key>
+				<string>77D5C207-CCDF-42A4-A07F-0F11EF2139BE</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Preview</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>TIFF</string>
+						<key>name</key>
+						<string>imageType</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:1367.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Change Type of Images.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>rotationAngle</key>
@@ -1707,7 +1805,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -1719,14 +1817,10 @@
 					<key>rotationAngle</key>
 					<integer>270</integer>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RotateImage</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1773,9 +1867,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:781.000000</string>
+				<string>309.000000:1587.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rotate Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rotate Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1791,11 +1885,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.url</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>PDF</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>chosenLayout</key>
@@ -1828,7 +1926,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.pdf</string>
+						<string>com.apple.cocoa.url</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1848,14 +1946,10 @@
 					<key>paperSize</key>
 					<integer>0</integer>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>PDF</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CreatePDFContactSheet</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1866,7 +1960,7 @@
 					<string>AMCategoryPDFs</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
+				<string>AMCreatePDFContactSheetAction</string>
 				<key>InputUUID</key>
 				<string>65E91CD8-1C9B-42F8-ADBE-C784557CB67E</string>
 				<key>Keywords</key>
@@ -1937,9 +2031,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:613.000000</string>
+				<string>309.000000:1767.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/New PDF Contact Sheet.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/New PDF Contact Sheet.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1955,11 +2049,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>center</key>
@@ -1983,7 +2081,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -2007,14 +2105,10 @@
 					<key>useDefaultPrinter</key>
 					<false/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.PrintImage</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -2024,7 +2118,7 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
+				<string>AMPrintImageAction</string>
 				<key>Disabled</key>
 				<false/>
 				<key>InputUUID</key>
@@ -2048,9 +2142,9 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<integer>0</integer>
 						<key>name</key>
-						<string>center</string>
+						<string>rotation</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2061,9 +2155,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<false/>
 						<key>name</key>
-						<string>rotation</string>
+						<string>scaleToFit</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2074,9 +2168,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string>Default Printer</string>
 						<key>name</key>
-						<string>useAutoRotate</string>
+						<string>chosenPrinterName</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2087,9 +2181,9 @@
 					<key>3</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<integer>1</integer>
 						<key>name</key>
-						<string>scaleToFit</string>
+						<string>printCopies</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2100,9 +2194,9 @@
 					<key>4</key>
 					<dict>
 						<key>default value</key>
-						<string>Default Printer</string>
+						<false/>
 						<key>name</key>
-						<string>chosenPrinterName</string>
+						<string>useAutoRotate</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2115,7 +2209,7 @@
 						<key>default value</key>
 						<false/>
 						<key>name</key>
-						<string>useDefaultPrinter</string>
+						<string>center</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -2123,26 +2217,13 @@
 						<key>uuid</key>
 						<string>5</string>
 					</dict>
-					<key>6</key>
-					<dict>
-						<key>default value</key>
-						<integer>1</integer>
-						<key>name</key>
-						<string>printCopies</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>6</string>
-					</dict>
 				</dict>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:433.000000</string>
+				<string>309.000000:1967.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Print Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Print Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -2162,7 +2243,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.2.0</string>
+				<string>v.2.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>itemType</key>
@@ -2206,69 +2291,56 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25Y
+					YnBsaXN0MDDUAQIDBAUGYmNYJHZlcnNpb25Y
 					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMTU6O0BESk9QVVxhZmhV
-					JG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNh
-					dGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
-					cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2Jq
-					ZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVm
-					dEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVz
+					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlVZXV9V
+					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
+					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
+					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
+					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
+					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
 					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					BIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHBy
-					ZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlO
-					U09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2A
-					BoAIXHZhbHVlRm9yS2V5OtIdCw0ogAfSKiss
+					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
+					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
+					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
+					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
 					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZF
-					eHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09i
-					amVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tl
-					eVBhdGiAChAKgAtUa2luZNIqKzw9XxAcTlNL
-					ZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+
-					PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
-					ZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5T
-					TXV0YWJsZUFycmF5o0FDMFdOU0FycmF50ior
-					RUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdI
-					STBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAU
-					TlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHBy
-					ZXNzaW9u0x1LC0xNTl8QD05TQ29uc3RhbnRW
-					YWx1ZRAAgA+AEBAE0iorUVJfEBlOU0NvbnN0
-					YW50VmFsdWVFeHByZXNzaW9uo1NUMF8QGU5T
-					Q29uc3RhbnRWYWx1ZUV4cHJlc3Npb25cTlNF
-					eHByZXNzaW9u1VZXWAtZT1pMW0xeTlNPcGVy
-					YXRvclR5cGVYTlNOZWdhdGVaTlNNb2RpZmll
-					cllOU09wdGlvbnMIgBLSKitdXl8QG05TRXF1
-					YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNfYDBf
-					EBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0
-					b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0ior
-					YmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWj
-					ZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRl
-					W05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8Q
-					E05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxAT
-					TlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRp
-					Y2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRy
-					b290gAEACAARABoAIwAtADIANwBQAFYAXQBv
-					AIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA
-					8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFF
-					AUcBVAFZAVsBYAFrAXQBhwGLAZ4BqwG0AbkB
-					uwG9Ab8BxgHQAdIB1AHWAdsB4AH/AgMCIgIv
-					AjQCQwJHAk8CVAJqAm8ChQKcAqkCsALCAsQC
-					xgLIAsoCzwLrAu8DCwMYAyMDMgM7A0YDUANR
-					A1MDWAN2A3oDmAOuA7MDywPPA+cD8wP4A/sE
-					AAQWBBoEMAQ8BE4EUQRWAAAAAAAAAgEAAAAA
-					AAAAcQAAAAAAAAAAAAAAAAAABFg=
+					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
+					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
+					Njc4WU5TS2V5UGF0aIALEAqAClRraW5k0ior
+					OzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
+					ZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFy
+					cmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tl
+					eVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1
+					bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9O
+					U0NvbnN0YW50VmFsdWWADxAAgBAQBNIqK0xN
+					XxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lv
+					bqNMLi/VC09QUVJTSFRISlpOU01vZGlmaWVy
+					WE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJh
+					dG9yVHlwZYASCNIqK1ZXXxAbTlNFcXVhbGl0
+					eVByZWRpY2F0ZU9wZXJhdG9yo1ZYL18QE05T
+					UHJlZGljYXRlT3BlcmF0b3LSKitaW18QFU5T
+					Q29tcGFyaXNvblByZWRpY2F0ZaNaXC9bTlNQ
+					cmVkaWNhdGXSKitAXqJAL9IqK2BhXxATTlND
+					b21wb3VuZFByZWRpY2F0ZaNgXC9fEA9OU0tl
+					eWVkQXJjaGl2ZXLRZGVUcm9vdIABAAgAEQAa
+					ACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYA
+					mwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEF
+					AQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAWAB
+					awF0AYcBiwGYAaEBpgGoAaoBrAGzAb0BvwHB
+					AcMByAHNAewB8AH1AgQCCAIQAhUCKwIwAkcC
+					TgJgAmICZAJmAmgCbQKJAo0CmAKjAqwCtgLF
+					AscCyALNAusC7wMFAwoDIgMmAzIDNwM6Az8D
+					VQNZA2sDbgNzAAAAAAAAAgEAAAAAAAAAZgAA
+					AAAAAAAAAAAAAAAAA3U=
 					</data>
 					<key>searchPath</key>
 					<string>2CC7497F-83AF-47CD-BAFE-66B21F97D2D1</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Find_Finder_Items_2</string>
 				<key>CFBundleVersion</key>
-				<string>2.0</string>
+				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -2339,9 +2411,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:233.000000</string>
+				<string>309.000000:2009.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -2357,11 +2429,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>rotationAngle</key>
@@ -2373,7 +2449,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -2385,14 +2461,10 @@
 					<key>rotationAngle</key>
 					<integer>90</integer>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RotateImage</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -2439,9 +2511,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>510.000000:191.000000</string>
+				<string>309.000000:2051.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rotate Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rotate Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -2461,7 +2533,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>inputToUse</key>
@@ -2499,14 +2575,10 @@
 					<key>loopValue</key>
 					<real>200</real>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Loop</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -2591,9 +2663,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>510.000000:149.000000</string>
+				<string>309.000000:2180.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Loop.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Loop.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -2601,111 +2673,118 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>01482991-0CE7-49F8-8623-E703B8914431</key>
+		<key>07690174-7870-4A68-B683-5BCFCC6EDF4E</key>
+		<dict>
+			<key>from</key>
+			<string>E2DE86BD-DFEF-4097-8281-186920775B0A - E2DE86BD-DFEF-4097-8281-186920775B0A</string>
+		</dict>
+		<key>077C3F45-A412-4315-8D1E-79779347BD89</key>
+		<dict>
+			<key>from</key>
+			<string>16DE6287-E9E2-4E32-BF75-072E0D0B22E7 - 16DE6287-E9E2-4E32-BF75-072E0D0B22E7</string>
+			<key>to</key>
+			<string>77D5C207-CCDF-42A4-A07F-0F11EF2139BE - 77D5C207-CCDF-42A4-A07F-0F11EF2139BE</string>
+		</dict>
+		<key>0EA49486-7897-4AB8-A0D3-1465307AEFFD</key>
+		<dict>
+			<key>from</key>
+			<string>87DF33AF-D0FD-4CE3-9180-0D3ACD244071 - 87DF33AF-D0FD-4CE3-9180-0D3ACD244071</string>
+			<key>to</key>
+			<string>5DDF907B-D330-48BF-9AD8-5A1917AC7495 - 5DDF907B-D330-48BF-9AD8-5A1917AC7495</string>
+		</dict>
+		<key>1EAE2B85-D167-4192-BBA4-56301FD61668</key>
 		<dict>
 			<key>from</key>
 			<string>5DDF907B-D330-48BF-9AD8-5A1917AC7495 - 5DDF907B-D330-48BF-9AD8-5A1917AC7495</string>
 			<key>to</key>
 			<string>F3738443-8CC3-4CA6-AFF9-010EDC53ECCD - F3738443-8CC3-4CA6-AFF9-010EDC53ECCD</string>
 		</dict>
-		<key>100F095B-664F-44A9-B280-90D8578E1CC8</key>
+		<key>3015F0F2-CB65-45D4-B8B8-6420A2032291</key>
 		<dict>
 			<key>from</key>
 			<string>50431CAE-78CD-44C4-B21A-FD877E870932 - 50431CAE-78CD-44C4-B21A-FD877E870932</string>
 			<key>to</key>
 			<string>9A9E74BA-C667-42F7-B2BD-75108329B69C - 9A9E74BA-C667-42F7-B2BD-75108329B69C</string>
 		</dict>
-		<key>14CC2060-6895-46CF-B403-618E69DC8F14</key>
+		<key>61CB79C5-2403-4E2D-A8DC-5570263BE529</key>
 		<dict>
 			<key>from</key>
-			<string>67D0DD3C-FBDA-4C47-96C5-267E8E7BF068 - 67D0DD3C-FBDA-4C47-96C5-267E8E7BF068</string>
-		</dict>
-		<key>5049491A-CCF2-49F2-9C15-440A1AF201E3</key>
-		<dict>
-			<key>from</key>
-			<string>05D308BD-4C67-4D28-8CFA-381EE5F7546B - 05D308BD-4C67-4D28-8CFA-381EE5F7546B</string>
-			<key>to</key>
-			<string>16DE6287-E9E2-4E32-BF75-072E0D0B22E7 - 16DE6287-E9E2-4E32-BF75-072E0D0B22E7</string>
-		</dict>
-		<key>552167DF-CFDA-4FE5-AA90-691E4AF94401</key>
-		<dict>
-			<key>from</key>
-			<string>E2DE86BD-DFEF-4097-8281-186920775B0A - E2DE86BD-DFEF-4097-8281-186920775B0A</string>
-		</dict>
-		<key>66BA5FF1-1158-41EC-8759-5602E901CAEF</key>
-		<dict>
-			<key>from</key>
-			<string>16DE6287-E9E2-4E32-BF75-072E0D0B22E7 - 16DE6287-E9E2-4E32-BF75-072E0D0B22E7</string>
+			<string>77D5C207-CCDF-42A4-A07F-0F11EF2139BE - 77D5C207-CCDF-42A4-A07F-0F11EF2139BE</string>
 			<key>to</key>
 			<string>87DF33AF-D0FD-4CE3-9180-0D3ACD244071 - 87DF33AF-D0FD-4CE3-9180-0D3ACD244071</string>
 		</dict>
-		<key>772FA0D8-B5D4-4F64-BA0D-EAB1E4740439</key>
-		<dict>
-			<key>from</key>
-			<string>F3738443-8CC3-4CA6-AFF9-010EDC53ECCD - F3738443-8CC3-4CA6-AFF9-010EDC53ECCD</string>
-			<key>to</key>
-			<string>36645E0E-5F43-487E-B0B8-443D29767D51 - 36645E0E-5F43-487E-B0B8-443D29767D51</string>
-		</dict>
-		<key>7B25F888-6CBD-4689-8817-1887815D54F3</key>
-		<dict>
-			<key>from</key>
-			<string>533251E8-476F-4B8F-88E6-715C269792F6 - 533251E8-476F-4B8F-88E6-715C269792F6</string>
-			<key>to</key>
-			<string>5A7DFBDF-542A-4451-B01A-39C123CA7451 - 5A7DFBDF-542A-4451-B01A-39C123CA7451</string>
-		</dict>
-		<key>8F0C1397-F1CB-4F76-AE15-B0B7A9B737D5</key>
-		<dict>
-			<key>from</key>
-			<string>01023F5A-DC88-48DD-87CF-0B55E3F53A4A - 01023F5A-DC88-48DD-87CF-0B55E3F53A4A</string>
-		</dict>
-		<key>AB558F8F-5EDE-4D64-A5E5-DCD054309B9E</key>
-		<dict>
-			<key>from</key>
-			<string>87DF33AF-D0FD-4CE3-9180-0D3ACD244071 - 87DF33AF-D0FD-4CE3-9180-0D3ACD244071</string>
-			<key>to</key>
-			<string>5DDF907B-D330-48BF-9AD8-5A1917AC7495 - 5DDF907B-D330-48BF-9AD8-5A1917AC7495</string>
-		</dict>
-		<key>B04FC72B-A71F-43DE-8976-EA211C0062DD</key>
-		<dict>
-			<key>from</key>
-			<string>5A7DFBDF-542A-4451-B01A-39C123CA7451 - 5A7DFBDF-542A-4451-B01A-39C123CA7451</string>
-			<key>to</key>
-			<string>67D0DD3C-FBDA-4C47-96C5-267E8E7BF068 - 67D0DD3C-FBDA-4C47-96C5-267E8E7BF068</string>
-		</dict>
-		<key>C4A44290-384C-4BF2-A612-47B9A3BC1972</key>
-		<dict>
-			<key>from</key>
-			<string>36645E0E-5F43-487E-B0B8-443D29767D51 - 36645E0E-5F43-487E-B0B8-443D29767D51</string>
-			<key>to</key>
-			<string>50431CAE-78CD-44C4-B21A-FD877E870932 - 50431CAE-78CD-44C4-B21A-FD877E870932</string>
-		</dict>
-		<key>D4857869-8CA4-4CF9-AF29-0238D3ED7BB8</key>
-		<dict>
-			<key>from</key>
-			<string>0B764A44-F9DA-435E-9E0C-EBC0293E2AB2 - 0B764A44-F9DA-435E-9E0C-EBC0293E2AB2</string>
-			<key>to</key>
-			<string>8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4 - 8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4</string>
-		</dict>
-		<key>E85ABE72-88CE-47C0-BE1A-D7E0F645E58A</key>
+		<key>7D3228FF-E823-4304-87E4-C44090D1A2C8</key>
 		<dict>
 			<key>from</key>
 			<string>91F17383-FDCB-4316-B958-571879EF9795 - 91F17383-FDCB-4316-B958-571879EF9795</string>
 			<key>to</key>
 			<string>05D308BD-4C67-4D28-8CFA-381EE5F7546B - 05D308BD-4C67-4D28-8CFA-381EE5F7546B</string>
 		</dict>
-		<key>E8951111-7A8D-42F6-A26E-B2112DB66D7E</key>
+		<key>8700C84D-5BCF-4B3D-86C7-96D4621E7F87</key>
+		<dict>
+			<key>from</key>
+			<string>36645E0E-5F43-487E-B0B8-443D29767D51 - 36645E0E-5F43-487E-B0B8-443D29767D51</string>
+			<key>to</key>
+			<string>50431CAE-78CD-44C4-B21A-FD877E870932 - 50431CAE-78CD-44C4-B21A-FD877E870932</string>
+		</dict>
+		<key>8C52885D-8E38-48F5-AD7A-41AD09AE9C86</key>
+		<dict>
+			<key>from</key>
+			<string>F3738443-8CC3-4CA6-AFF9-010EDC53ECCD - F3738443-8CC3-4CA6-AFF9-010EDC53ECCD</string>
+			<key>to</key>
+			<string>36645E0E-5F43-487E-B0B8-443D29767D51 - 36645E0E-5F43-487E-B0B8-443D29767D51</string>
+		</dict>
+		<key>B07073D9-4F7E-413A-A73C-CBB477BB2316</key>
+		<dict>
+			<key>from</key>
+			<string>2FEF34C7-CFF9-445A-B435-F0334B1C5CF7 - 2FEF34C7-CFF9-445A-B435-F0334B1C5CF7</string>
+			<key>to</key>
+			<string>533251E8-476F-4B8F-88E6-715C269792F6 - 533251E8-476F-4B8F-88E6-715C269792F6</string>
+		</dict>
+		<key>B1187DE6-881D-44FC-A46D-AEA904945A39</key>
+		<dict>
+			<key>from</key>
+			<string>01023F5A-DC88-48DD-87CF-0B55E3F53A4A - 01023F5A-DC88-48DD-87CF-0B55E3F53A4A</string>
+		</dict>
+		<key>C2D138F1-5EA2-4A13-A7CF-132C4A4538F0</key>
+		<dict>
+			<key>from</key>
+			<string>05D308BD-4C67-4D28-8CFA-381EE5F7546B - 05D308BD-4C67-4D28-8CFA-381EE5F7546B</string>
+			<key>to</key>
+			<string>16DE6287-E9E2-4E32-BF75-072E0D0B22E7 - 16DE6287-E9E2-4E32-BF75-072E0D0B22E7</string>
+		</dict>
+		<key>C7FD5237-3DE6-4ACE-9658-B54CB2F4405D</key>
+		<dict>
+			<key>from</key>
+			<string>5A7DFBDF-542A-4451-B01A-39C123CA7451 - 5A7DFBDF-542A-4451-B01A-39C123CA7451</string>
+			<key>to</key>
+			<string>67D0DD3C-FBDA-4C47-96C5-267E8E7BF068 - 67D0DD3C-FBDA-4C47-96C5-267E8E7BF068</string>
+		</dict>
+		<key>E0323CE2-37E4-441B-B57D-64CC6D2C16B8</key>
+		<dict>
+			<key>from</key>
+			<string>67D0DD3C-FBDA-4C47-96C5-267E8E7BF068 - 67D0DD3C-FBDA-4C47-96C5-267E8E7BF068</string>
+		</dict>
+		<key>ECEBCB17-D650-4CFB-916B-BD90E33C5674</key>
+		<dict>
+			<key>from</key>
+			<string>0B764A44-F9DA-435E-9E0C-EBC0293E2AB2 - 0B764A44-F9DA-435E-9E0C-EBC0293E2AB2</string>
+			<key>to</key>
+			<string>8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4 - 8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4</string>
+		</dict>
+		<key>F025F976-D980-4ED4-9ECD-CB27C6416246</key>
 		<dict>
 			<key>from</key>
 			<string>8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4 - 8B5EE02A-32A3-4DD5-96DF-EC5AE720C5C4</string>
 			<key>to</key>
 			<string>2FEF34C7-CFF9-445A-B435-F0334B1C5CF7 - 2FEF34C7-CFF9-445A-B435-F0334B1C5CF7</string>
 		</dict>
-		<key>F2F292E9-8FAF-42FE-94FD-7B86A11322BB</key>
+		<key>F4E0B99A-F927-4658-8A87-8FF2A13658CD</key>
 		<dict>
 			<key>from</key>
-			<string>2FEF34C7-CFF9-445A-B435-F0334B1C5CF7 - 2FEF34C7-CFF9-445A-B435-F0334B1C5CF7</string>
-			<key>to</key>
 			<string>533251E8-476F-4B8F-88E6-715C269792F6 - 533251E8-476F-4B8F-88E6-715C269792F6</string>
+			<key>to</key>
+			<string>5A7DFBDF-542A-4451-B01A-39C123CA7451 - 5A7DFBDF-542A-4451-B01A-39C123CA7451</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -2800,7 +2879,7 @@
 			<key>name</key>
 			<string>Path</string>
 			<key>value</key>
-			<string>/Users/bruno/Pictures/CurblyPhotoBoothPictures/bruno9:13 PM</string>
+			<string>/Users/bruno/Pictures/CurblyPhotoBoothPictures/bruno9:26 AM</string>
 		</dict>
 		<dict>
 			<key>UUID</key>
